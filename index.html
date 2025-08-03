@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tharhat Debnath</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f0f10;
+      color: #cbd5e1;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 60px;
+      background: rgba(15,15,16,0.85);
+      backdrop-filter: saturate(180%) blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      z-index: 1000;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #38bdf8;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #94a3b8;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 100px 20px 60px;
+    }
+
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    #hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+    #hero p {
+      font-size: 1.25rem;
+      color: #a1aebd;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #e0e7ff;
+    }
+    #about p,
+    #work ul,
+    #contact p {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin-bottom: 1rem;
+    }
+
+    #work ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    #work li {
+      margin-bottom: 0.75rem;
+    }
+    #work strong {
+      color: #38bdf8;
+    }
+
+    #contact a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      #hero h1 {
+        font-size: 2.2rem;
+      }
+      nav a {
+        margin-left: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">THARHAT DEBNATH.</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="hero">
+  <h1>Hi, I'm Tharhat.</h1>
+  <p>Founder of FlowARK Technologies and creator of Tharhat Tech Repairs.</p>
+  <p>Building smart systems, tech innovation, and hands-on solutions.</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a self-taught builder based in Toronto, running several small businesses while learning tech and healthcare skills.
+  </p>
+  <p>
+    I founded <strong>FlowARK Technologies</strong>, designing early-stage tech ideas and planning to sell products like laptops, chips, and phones soon. I also run <strong>Tharhat Tech Repairs</strong>, a local repair shop for phones, tablets, and PCs, where I work honestly and independently, offering fair prices and good-quality parts. Plus, I’m co-founder of <strong>Cifleaf Market</strong>, a digital shop for in-game goods focused on fair pricing and trust.
+  </p>
+  <p>
+    I design using Figma and 3D tools, and I’m learning about AI, automation, and ethical tech. I’m also studying health sciences aiming to become a NICU nurse, but cybersecurity is another path I’m exploring.
+  </p>
+  <p>
+    I have a learning disability that shapes how I think — helping me solve problems creatively and stay strong even with challenges.
+  </p>
+  <p>
+    I work independently in downtown Toronto, with plans for bigger projects soon, like combining rideshare and e-commerce platforms. I’m also exploring investing and long-term growth.
+  </p>
+  <p>
+    I believe in kindness, building slowly, and helping others. If you’re working on something meaningful, I’d love to connect!
+  </p>
+</section>
+
+<section id="work">
+  <h2>Work</h2>
+  <ul>
+    <li><strong>FlowARK Technologies</strong> — Designing new tech ideas and soon selling laptops, chips, phones, and more.</li>
+    <li><strong>Tharhat Tech Repairs</strong> — Honest, hands-on repair services for phones, tablets, and PCs with fair prices and quality parts.</li>
+    <li><strong>Cifleaf Market</strong> — Co-founder of a digital store for in-game items, focused on fair pricing and community trust.</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:contact.tharhatd@icloud.com">contact.tharhatd@icloud.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/tharhat-debnath-775181323" target="_blank" rel="noopener noreferrer">linkedin.com/in/tharhat-debnath-775181323</a></p>
+  <p>X (Twitter): <a href="https://x.com/Iam_TharhatD" target="_blank" rel="noopener noreferrer">@Iam_TharhatD</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Tharhat Debnath
+</footer>
+
+</body>
+</html>
